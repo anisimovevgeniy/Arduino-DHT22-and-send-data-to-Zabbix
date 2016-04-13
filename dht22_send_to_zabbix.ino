@@ -6,15 +6,15 @@
 
 DHT dht(DHTPIN, DHTTYPE);
 
-const char* ssid     = "ITCOL";
-const char* password = "DaRa5803";
+const char* ssid     = "ssid";
+const char* password = "password";
 
-const char* zabbix = "192.168.0.103";
+const char* zabbix = "192.168.0.103"; //Zabbix server IP
 
-const char* host   = "WemosD1mini";
-const char* item_temp = "temp";
-const char* item_hum = "hum";
-const char* item_heat = "heat";
+const char* host   = "WemosD1mini"; //Host in Zabbix
+const char* item_temp = "temp"; //Item in Zabbix
+const char* item_hum = "hum"; //Item in Zabbix
+const char* item_heat = "heat"; //Item in Zabbix
 
 // sleep for this many seconds
 const int sleepSeconds = 30;
